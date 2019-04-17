@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>YAML</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="/html/home.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">HOME</a>
+        <a href="/html/YAML.html" class="w3-bar-item w3-button w3-padding-large w3-white">YAML</a>
+        <a href="/html/JSON.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">JSON</a>
+        <a href="/html/JADE.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">JADE</a>
+        <a href="/html/html.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">HTML</a>
+        <a href="/html/XML.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">XML</a>
+        <a href="/html/JSON%20SCHEMA.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">JSON SCHEMA</a>
+
+    </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="/html/html.html" class="w3-bar-item w3-button w3-padding-large ">HTML</a>
+        <a href="/html/JSON.html" class="w3-bar-item w3-button  w3-padding-large ">JSON</a>
+        <a href="/html/YAML.html" class="w3-bar-item w3-button  w3-padding-large ">YAML</a>
+        <a href="/html/JADE.html" class="w3-bar-item w3-button  w3-padding-large ">JADE</a>
+        <a href="/html/XML.html" class="w3-bar-item w3-button  w3-padding-large ">XML</a>
+        <a href="/html/JSON%20SCHEMA.html" class="w3-bar-item w3-button  w3-padding-large ">JSON SCHEMA</a>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:55px 16px">
+    <h1 class="w3-margin w3-jumbo">YAML</h1>
+    <!--<p class="w3-xlarge">Template bcsy w3.s</p>-->
+    <!--<button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>-->
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+        <div class="w3-twothird">
+            <h1>Description</h1>
+            <!--<h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>-->
+
+            <h4 class="w3-text-grey">YAML (YAML Ain't Markup Language) is a human-readable data serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored (e.g. debugging output) or transmitted (e.g. document headers). YAML targets many of the same communications applications as XML but has a minimal syntax which intentionally breaks compatibility with SGML . It uses both Python-style indentation to indicate nesting, and a more compact format that uses [] for lists and {} for maps making YAML 1.2 a superset of JSON.
+
+                <br>Custom data types are allowed, but YAML natively encodes scalars (such as strings, integers, and floats), lists, and associative arrays (also known as hashes, maps, or dictionaries). These data types are based on the Perl programming language, though all commonly used high-level programming languages share very similar concepts. The colon-centered syntax, used to express key-value pairs, is inspired by electronic mail headers as defined in RFC 0822, and the document separator "---" is borrowed from MIME (RFC 2046). Escape sequences are reused from C, and whitespace wrapping for multi-line strings is inspired from HTML. Lists and hashes can contain nested lists and hashes, forming a tree structure; arbitrary graphs can be represented using YAML aliases (similar to XML in SOAP). YAML is intended to be read and written in streams, a feature inspired by SAX.
+
+                <br>Support for reading and writing YAML is available for many programming languages. Some source code editors such as Emacs and various integrated development environments have features that make editing YAML easier, such as folding up nested structures or automatically highlighting syntax errors.
+
+                The official recommended filename extension for YAML files has been .yaml since 2006.</h4>
+        </div>
+
+        <div class="w3-third w3-center">
+            <img src="https://avatars2.githubusercontent.com/u/69535?s=200&v=4">
+        </div>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+
+        <div class="w3-twothird">
+
+            <br>
+            <h3>Learn More</h3>
+            <a href="https://yaml.org/"> <h4>yaml.org</h4></a>
+            <a href="https://en.wikipedia.org/wiki/YAML"><h4>Wikipedia</h4></a>
+            <a href="https://learnxinyminutes.com/docs/yaml/"><h4>YAML in minutes</h4></a>
+            <a href="https://yaml.org/YAML_for_ruby.html"><h4>YAMl cookbook for ruby</h4></a>
+
+        </div>
+    </div>
+
+</div>
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <p>Developed by<a href="https://gtoravan.github.io/hello-world/"> Gaurav Toravane</a></p>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+
+</body>
+</html>
